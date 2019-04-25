@@ -5,9 +5,9 @@ From the result, as shown below, 5 cluster is the ideal number.
 
 ![](ElbowMethod.PNG). 
 
-The calculation is base on the WCRR, which measure the total of the square of the distance.
+The calculation is base on the WCSS, which measure the total of the square of the distance.
 
-![](wcrr.PNG).
+![](WCSS.PNG).
 
 ## Build the k-means clustering model (k = 5)
 ### Concerns
@@ -28,6 +28,7 @@ Cluster 3 is the customers who have medium income and medium expense. These peop
 Cluster 4 is the customers who have low income but high expense. They are the customers who do not care about the prices, so we call them careless type.
 
 Cluster 5 is the opposite type to cluster 5. They have low income and low purchase. They are the people who are sensitive to the price.
+
 ![](ModelViz.PNG)
 
 ## Conclusion
